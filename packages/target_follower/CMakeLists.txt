@@ -8,7 +8,7 @@ project(target_follower)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  dukietown_msgs
+  duckietown_msgs
   roscpp
   rospy
   std_msgs
@@ -71,7 +71,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate added messages and services with any dependencies listed here
 # generate_messages(
 #   DEPENDENCIES
-#   dukietown_msgs#   std_msgs
+#   duckietown_msgs#   std_msgs
 # )
 
 ################################################
@@ -106,7 +106,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES target_follower
-#  CATKIN_DEPENDS dukietown_msgs roscpp rospy std_msgs
+#  CATKIN_DEPENDS duckietown_msgs roscpp rospy std_msgs
 #  DEPENDS system_lib
 )
 
