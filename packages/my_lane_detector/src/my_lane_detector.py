@@ -22,7 +22,7 @@ class Lane_Detector:
         self.cv_bridge = CvBridge()
 
         #### REMEMBER TO CHANGE THE TOPIC NAME! #####        
-        self.image_sub = rospy.Subscriber('/<your_robot_name>/camera_node/image/compressed', CompressedImage, self.image_callback, queue_size=1)
+        self.image_sub = rospy.Subscriber('/mybota002446/camera_node/image/compressed', CompressedImage, self.image_callback, queue_size=1)
         #############################################
 
         rospy.init_node("my_lane_detector")
